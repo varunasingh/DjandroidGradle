@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/varuna/UstadMobile/DjandroidGradle/app/src/main/assets"><file name="private.mp3" path="/home/varuna/UstadMobile/DjandroidGradle/app/src/main/assets/private.mp3"/><file name="public.mp3" path="/home/varuna/UstadMobile/DjandroidGradle/app/src/main/assets/public.mp3"/></source></dataSet><dataSet config="debug"><source path="/home/varuna/UstadMobile/DjandroidGradle/app/src/debug/assets"/></dataSet></merger>

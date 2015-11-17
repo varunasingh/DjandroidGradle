@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/varuna/UstadMobile/DjandroidGradle/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="appName">Djandro</string>
+    <string name="iconName">Djandro</string>
+    <string name="private_version">1447659679.72</string>
+    <string name="public_version">1447659679.72</string>
+    <string name="urlScheme">kivy</string>
+</resources>
