@@ -61,9 +61,15 @@ public class PythonService extends Service  implements Runnable {
         Intent contextIntent = new Intent(context, PythonActivity.class);
         PendingIntent pIntent = PendingIntent.getActivity(context, 0, contextIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT);
-        notification.setLatestEventInfo(context, serviceTitle, serviceDescription, pIntent);
-        startForeground(1, notification);
-
+        Notification notif = new Notification.Builder(context)
+                .setContentTitle(serviceTitle)
+                .setContentText(serviceDescription)
+                .setContentIntent(pIntent)
+                .setSmallIcon(context.getApplicationInfo().icon)
+                .build();
+        //notification.setLatestEventInfo(context, serviceTitle, serviceDescription, pIntent);
+        //startForeground(1, notification);
+        startForeground(1, notif);
         return START_NOT_STICKY;
     }
 
